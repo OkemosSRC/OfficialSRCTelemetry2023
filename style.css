@@ -1,0 +1,56 @@
+body {
+    background-color: #212120;
+    color: #c7c7c7;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex: 33.33%;
+	height: 600px;
+	padding: 10px;
+	margin: 25px;
+	background-color: #313130;
+	text-align: center;
+    /* add a nice border */
+    border: 5px solid #c7c7c7;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px;
+    padding: 0;
+    color: white;
+    
+}
+
+h2 { 
+    color: white;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.speed {
+    /* shift text up into the image */
+    font-size: 65px;
+    margin-top: -240px;
+    color: white;
+    font-weight: bold;
+}
+
+.speedometer{
+    /* shift image up */
+    margin-top: 70px;
+}
+
+h1 {
+    color: white;
+}
